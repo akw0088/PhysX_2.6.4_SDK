@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+ProjectType="Visual C++"
+Version="7.10"
+Name="SampleSceneExport"
+>
+<Platforms>
+<Platform Name="Win32"/>
+</Platforms>
+<Configurations>
+  <Configuration
+    Name="Release|Win32"
+    OutputDirectory="../../../bin/win32"
+    IntermediateDirectory="build/Win32/SampleSceneExport/Release"
+    ConfigurationType="1"
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../SampleCommonCode/src&quot;;&quot;../../../SDKs/Foundation/include&quot;;&quot;../../../SDKs/Physics/include&quot;;&quot;../../../SDKs/Cooking/Include&quot;;&quot;../../../SDKs/PhysXLoader/include&quot;;&quot;../../../Tools/NxuStream2&quot;;&quot;../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CRT_SECURE_NO_DEPRECATE;NDEBUG;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions="/O2 /MT "
+      ExceptionHandling="1"
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/SampleSceneExport.exe" 
+      ProgramDatabaseFile="$(OutDir)/SampleSceneExport.exe.pdb" 
+      AdditionalOptions="/LIBPATH:../../../SDKs/lib/win32 /LIBPATH:../../../Graphics/lib/win32/glut PhysXLoader.lib "
+      AdditionalDependencies=""
+      AdditionalLibraryDirectories=""
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/SampleSceneExport.exe.map"
+      SubSystem="1"
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool" CommandLine=""/>
+    <Tool Name="VCPostBuildEventTool" CommandLine=""/>
+    <Tool Name="VCPreLinkEventTool" CommandLine=""/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+  <Configuration
+    Name="Debug|Win32"
+    OutputDirectory="../../../bin/win32"
+    IntermediateDirectory="build/Win32/SampleSceneExport/Debug"
+    ConfigurationType="1"
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../SampleCommonCode/src&quot;;&quot;../../../SDKs/Foundation/include&quot;;&quot;../../../SDKs/Physics/include&quot;;&quot;../../../SDKs/Cooking/Include&quot;;&quot;../../../SDKs/PhysXLoader/include&quot;;&quot;../../../Tools/NxuStream2&quot;;&quot;../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CRT_SECURE_NO_DEPRECATE;_DEBUG;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions="/Od /MTd /Zi "
+      ExceptionHandling="1"
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/SampleSceneExportDEBUG.exe" 
+      ProgramDatabaseFile="$(OutDir)/SampleSceneExportDEBUG.exe.pdb" 
+      AdditionalOptions="/LIBPATH:../../../SDKs/lib/win32 /LIBPATH:../../../Graphics/lib/win32/glut /DEBUG PhysXLoader.lib "
+      AdditionalDependencies=""
+      AdditionalLibraryDirectories=""
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/SampleSceneExportDEBUG.exe.map"
+      SubSystem="1"
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool" CommandLine=""/>
+    <Tool Name="VCPostBuildEventTool" CommandLine=""/>
+    <Tool Name="VCPreLinkEventTool" CommandLine=""/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+</Configurations>
+<References></References>
+<Files>
+  <Filter Name="Source Files" Filter="">
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Asc2Bin.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ColladaExport.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ColladaImport.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_cooking.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_customcopy.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_File.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Geometry.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_helper.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_hull.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_PhysicsExport.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_PhysicsInstantiator.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_schema.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_SchemaStream.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Streaming.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_string.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinystr.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinyxml.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinyxmlerror.cpp"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinyxmlparser.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\DebugRenderer.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\MediaPath.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Stream.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\UserAllocator.cpp"/>
+    <File RelativePath="..\..\SampleSceneExport\src\NxSampleSceneExport.cpp"/>
+  </Filter>
+  <Filter Name="Header Files" Filter="">
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Asc2Bin.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ColladaExport.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_ColladaImport.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_cooking.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_customcopy.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_File.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Geometry.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_helper.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_hull.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_PhysicsExport.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_PhysicsInstantiator.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_schema.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_SchemaStream.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_SchemaTypes.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_Streaming.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_string.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinystr.h"/>
+    <File RelativePath="..\..\..\Tools\NxuStream2\NXU_tinyxml.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\DebugRenderer.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\MediaPath.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Stream.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\UserAllocator.h"/>
+  </Filter>
+</Files>
+<Globals></Globals>
+</VisualStudioProject>

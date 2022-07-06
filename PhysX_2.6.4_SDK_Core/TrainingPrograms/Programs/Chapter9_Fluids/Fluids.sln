@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson901", "Lesson901_Fluids\compiler\vc7\Lesson901.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson902", "Lesson902_Fluid_Emitters\compiler\vc7\Lesson902.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson903", "Lesson903_Fluids_and_Mesh_Files\compiler\vc7\Lesson903.vcproj", "{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson904", "Lesson904_Fluid_Rendering\compiler\vc7\Lesson904.vcproj", "{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}.Debug.ActiveCfg = Debug|Win32
+		{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}.Debug.Build.0 = Debug|Win32
+		{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}.Release.ActiveCfg = Release|Win32
+		{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}.Release.Build.0 = Release|Win32
+		{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}.Debug.ActiveCfg = Debug|Win32
+		{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}.Debug.Build.0 = Debug|Win32
+		{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}.Release.ActiveCfg = Release|Win32
+		{9CEA8847-A860-4EEA-90E8-F6B0E7D00FB6}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

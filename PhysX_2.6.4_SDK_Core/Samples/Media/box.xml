@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NXUSTREAM	 asset="C:\p4\rocket\data\pscl\box.xml"	sdkversion="244">
+	 <NxPhysicsSDK id="PhysX_SDK">
+	 	 <NxuUserProperties></NxuUserProperties>
+	 	 <SDK_VERSION>244</SDK_VERSION>
+	 	 <NXU_VERSION>60</NXU_VERSION>
+	 	 <numParams>0</numParams>
+	 	 <numConvexes>0</numConvexes>
+	 	 <numTrimesh>0</numTrimesh>
+	 	 <numHeightFields>0</numHeightFields>
+	 	 <numSkeletons>0</numSkeletons>
+	 	 <numClothMeshes>0</numClothMeshes>
+	 	 <numScenes>1</numScenes>
+	 	 <numSceneInstances>0</numSceneInstances>
+	 	 <NxSceneDesc id="box">
+	 	 	 <NxuUserProperties></NxuUserProperties>
+	 	 	 <filterBool>false</filterBool>
+	 	 	 <filterOp0>NX_FILTEROP_AND</filterOp0>
+	 	 	 <filterOp1>NX_FILTEROP_AND</filterOp1>
+	 	 	 <filterOp2>NX_FILTEROP_AND</filterOp2>
+	 	 	 <groupsMask id="filterConstant0">
+	 	 	 	 <bits0>00000000</bits0>
+	 	 	 	 <bits1>00000000</bits1>
+	 	 	 	 <bits2>00000000</bits2>
+	 	 	 	 <bits3>00000000</bits3>
+	 	 	 </groupsMask>
+	 	 	 <groupsMask id="filterConstant1">
+	 	 	 	 <bits0>00000000</bits0>
+	 	 	 	 <bits1>00000000</bits1>
+	 	 	 	 <bits2>00000000</bits2>
+	 	 	 	 <bits3>00000000</bits3>
+	 	 	 </groupsMask>
+	 	 	 <groundPlane>true</groundPlane>
+	 	 	 <boundsPlanes>false</boundsPlanes>
+	 	 	 <gravity>0	-9.800000191 0</gravity>
+	 	 	 <timeStepMethod>NX_TIMESTEP_FIXED</timeStepMethod>
+	 	 	 <maxTimestep>0.01</maxTimestep>
+	 	 	 <maxIter>2</maxIter>
+	 	 	 <simType>NX_SIMULATION_SW</simType>
+	 	 	 <backgroundThreadCount>0</backgroundThreadCount>
+	 	 	 <backgroundThreadMask>1431655764</backgroundThreadMask>
+	 	 	 <hwSceneType>NX_HW_SCENE_TYPE_RB</hwSceneType>
+	 	 	 <pipelineSpec>NX_HW_PIPELINE_FULL</pipelineSpec>
+	 	 	 <hasLimits>false</hasLimits>
+	 	 	 <hasBounds>false</hasBounds>
+	 	 	 <internalThreadCount>0</internalThreadCount>
+	 	 	 <threadMask>1431655764</threadMask>
+	 	 	 <flags>
+	 	 	 	 <NX_SF_DISABLE_SSE>false</NX_SF_DISABLE_SSE>
+	 	 	 	 <NX_SF_DISABLE_COLLISIONS>false</NX_SF_DISABLE_COLLISIONS>
+	 	 	 	 <NX_SF_SIMULATE_SEPARATE_THREAD>true</NX_SF_SIMULATE_SEPARATE_THREAD>
+	 	 	 	 <NX_SF_ENABLE_MULTITHREAD>false</NX_SF_ENABLE_MULTITHREAD>
+	 	 	 </flags>
+	 	 	 <NxScene id="box_contents">
+	 	 	 	 <NxuUserProperties></NxuUserProperties>
+	 	 	 	 <name>Scene_0_contents</name>
+	 	 	 	 <matCount>1</matCount>
+	 	 	 	 <actorCount>1</actorCount>
+	 	 	 	 <jointCount>0</jointCount>
+	 	 	 	 <pairFlagCount>0</pairFlagCount>
+	 	 	 	 <effectorCount>0</effectorCount>
+	 	 	 	 <groupCollisionCount>0</groupCollisionCount>
+	 	 	 	 <actorGroupCount>0</actorGroupCount>
+	 	 	 	 <fluidCount>0</fluidCount>
+	 	 	 	 <clothCount>0</clothCount>
+	 	 	 	 <NxMaterialDesc id="Material_0">
+	 	 	 	 	 <NxuUserProperties></NxuUserProperties>
+	 	 	 	 	 <index>0</index>
+	 	 	 	 	 <dynamicFriction>0.5</dynamicFriction>
+	 	 	 	 	 <staticFriction>0.5</staticFriction>
+	 	 	 	 	 <restitution>0</restitution>
+	 	 	 	 	 <dynamicFrictionV>0</dynamicFrictionV>
+	 	 	 	 	 <staticFrictionV>0</staticFrictionV>
+	 	 	 	 	 <frictionCombineMode>NX_CM_AVERAGE</frictionCombineMode>
+	 	 	 	 	 <restitutionCombineMode>NX_CM_AVERAGE</restitutionCombineMode>
+	 	 	 	 	 <dirOfAnisotropy>1	0 0</dirOfAnisotropy>
+	 	 	 	 	 <flags>
+	 	 	 	 	 	 <NX_MF_ANISOTROPIC>false</NX_MF_ANISOTROPIC>
+	 	 	 	 	 	 <NX_MF_SPRING_CONTACT>false</NX_MF_SPRING_CONTACT>
+	 	 	 	 	 	 <NX_MF_DISABLE_FRICTION>false</NX_MF_DISABLE_FRICTION>
+	 	 	 	 	 	 <NX_MF_DISABLE_STRONG_FRICTION>false</NX_MF_DISABLE_STRONG_FRICTION>
+	 	 	 	 	 	 <NX_MF_WHEEL_AXIS_CONTACT_NORMAL>false</NX_MF_WHEEL_AXIS_CONTACT_NORMAL>
+	 	 	 	 	 </flags>
+	 	 	 	 	 <hasSpring>false</hasSpring>
+	 	 	 	 </NxMaterialDesc>
+	 	 	 	 <NxActorDesc id="Actor_0">
+	 	 	 	 	 <NxuUserProperties></NxuUserProperties>
+	 	 	 	 	 <globalPose>1	0	0	0	1	0	0	0	1	0.5	0.5 0.5</globalPose>
+	 	 	 	 	 <hasBody>true</hasBody>
+	 	 	 	 	 <NxBodyDesc>
+	 	 	 	 	 	 <massLocalPose>1	0	0	0	1	0	0	0	1	0	0 0</massLocalPose>
+	 	 	 	 	 	 <massSpaceInertia>0.166666672	0.166666672 0.166666672</massSpaceInertia>
+	 	 	 	 	 	 <mass>1</mass>
+	 	 	 	 	 	 <linearVelocity>0	0 0</linearVelocity>
+	 	 	 	 	 	 <angularVelocity>0	0 0</angularVelocity>
+	 	 	 	 	 	 <wakeUpCounter>0.399999976</wakeUpCounter>
+	 	 	 	 	 	 <linearDamping>0</linearDamping>
+	 	 	 	 	 	 <angularDamping>0</angularDamping>
+	 	 	 	 	 	 <maxAngularVelocity>7</maxAngularVelocity>
+	 	 	 	 	 	 <CCDMotionThreshold>0</CCDMotionThreshold>
+	 	 	 	 	 	 <flags>
+	 	 	 	 	 	 	 <NX_BF_DISABLE_GRAVITY>false</NX_BF_DISABLE_GRAVITY>
+	 	 	 	 	 	 	 <NX_BF_FROZEN_POS_X>false</NX_BF_FROZEN_POS_X>
+	 	 	 	 	 	 	 <NX_BF_FROZEN_POS_Y>false</NX_BF_FROZEN_POS_Y>
+	 	 	 	 	 	 	 <NX_BF_FROZEN_POS_Z>false</NX_BF_FROZEN_POS_Z>
+	 	 	 	 	 	 	 <NX_BF_FROZEN_ROT_X>false</NX_BF_FROZEN_ROT_X>
+	 	 	 	 	 	 	 <NX_BF_FROZEN_ROT_Y>false</NX_BF_FROZEN_ROT_Y>
+	 	 	 	 	 	 	 <NX_BF_FROZEN_ROT_Z>false</NX_BF_FROZEN_ROT_Z>
+	 	 	 	 	 	 	 <NX_BF_KINEMATIC>false</NX_BF_KINEMATIC>
+	 	 	 	 	 	 	 <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+	 	 	 	 	 	 	 <NX_BF_FILTER_SLEEP_VEL>false</NX_BF_FILTER_SLEEP_VEL>
+	 	 	 	 	 	 </flags>
+	 	 	 	 	 	 <sleepLinearVelocity>0.199999988</sleepLinearVelocity>
+	 	 	 	 	 	 <sleepAngularVelocity>0.099999994</sleepAngularVelocity>
+	 	 	 	 	 	 <solverIterationCount>8</solverIterationCount>
+	 	 	 	 	 </NxBodyDesc>
+	 	 	 	 	 <density>0</density>
+	 	 	 	 	 <group>0</group>
+	 	 	 	 	 <flags>
+	 	 	 	 	 	 <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+	 	 	 	 	 	 <NX_AF_DISABLE_RESPONSE>false</NX_AF_DISABLE_RESPONSE>
+	 	 	 	 	 	 <NX_AF_LOCK_COM>false</NX_AF_LOCK_COM>
+	 	 	 	 	 	 <NX_AF_FLUID_DISABLE_COLLISION>false</NX_AF_FLUID_DISABLE_COLLISION>
+	 	 	 	 	 	 <NX_AF_CONTACT_MODIFICATION>false</NX_AF_CONTACT_MODIFICATION>
+	 	 	 	 	 </flags>
+	 	 	 	 	 <name></name>
+	 	 	 	 	 <numShapes>1</numShapes>
+	 	 	 	 	 <NxShapeDesc id="Shape_0">
+	 	 	 	 	 	 <type>NX_SHAPE_BOX</type>
+	 	 	 	 	 	 <NxuUserProperties></NxuUserProperties>
+	 	 	 	 	 	 <localPose>1	0	0	0	1	0	0	0	1	0	0 0</localPose>
+	 	 	 	 	 	 <group>0</group>
+	 	 	 	 	 	 <materialIndex>0</materialIndex>
+	 	 	 	 	 	 <mass>-1</mass>
+	 	 	 	 	 	 <density>1</density>
+	 	 	 	 	 	 <skinWidth>0.005</skinWidth>
+	 	 	 	 	 	 <shapeFlags>
+	 	 	 	 	 	 	 <NX_TRIGGER_ON_ENTER>false</NX_TRIGGER_ON_ENTER>
+	 	 	 	 	 	 	 <NX_TRIGGER_ON_LEAVE>false</NX_TRIGGER_ON_LEAVE>
+	 	 	 	 	 	 	 <NX_TRIGGER_ON_STAY>false</NX_TRIGGER_ON_STAY>
+	 	 	 	 	 	 	 <NX_SF_VISUALIZATION>true</NX_SF_VISUALIZATION>
+	 	 	 	 	 	 	 <NX_SF_DISABLE_COLLISION>false</NX_SF_DISABLE_COLLISION>
+	 	 	 	 	 	 	 <NX_SF_FEATURE_INDICES>false</NX_SF_FEATURE_INDICES>
+	 	 	 	 	 	 	 <NX_SF_DISABLE_RAYCASTING>false</NX_SF_DISABLE_RAYCASTING>
+	 	 	 	 	 	 	 <NX_SF_POINT_CONTACT_FORCE>false</NX_SF_POINT_CONTACT_FORCE>
+	 	 	 	 	 	 	 <NX_SF_FLUID_DRAIN>false</NX_SF_FLUID_DRAIN>
+	 	 	 	 	 	 	 <NX_SF_FLUID_DRAIN_INVERT>false</NX_SF_FLUID_DRAIN_INVERT>
+	 	 	 	 	 	 	 <NX_SF_FLUID_DISABLE_COLLISION>false</NX_SF_FLUID_DISABLE_COLLISION>
+	 	 	 	 	 	 	 <NX_SF_FLUID_TWOWAY>false</NX_SF_FLUID_TWOWAY>
+	 	 	 	 	 	 	 <NX_SF_DISABLE_RESPONSE>false</NX_SF_DISABLE_RESPONSE>
+	 	 	 	 	 	 	 <NX_SF_DYNAMIC_DYNAMIC_CCD>false</NX_SF_DYNAMIC_DYNAMIC_CCD>
+	 	 	 	 	 	 </shapeFlags>
+	 	 	 	 	 	 <mCCDSkeleton>-1</mCCDSkeleton>
+	 	 	 	 	 	 <groupsMask>
+	 	 	 	 	 	 	 <bits0>00000000</bits0>
+	 	 	 	 	 	 	 <bits1>00000000</bits1>
+	 	 	 	 	 	 	 <bits2>00000000</bits2>
+	 	 	 	 	 	 	 <bits3>00000000</bits3>
+	 	 	 	 	 	 </groupsMask>
+	 	 	 	 	 	 <name></name>
+	 	 	 	 	 	 <dimensions>0.5	0.5 0.5</dimensions>
+	 	 	 	 	 </NxShapeDesc>
+	 	 	 	 </NxActorDesc>
+	 	 	 </NxScene>
+	 	 </NxSceneDesc>
+	 </NxPhysicsSDK>
+</NXUSTREAM>

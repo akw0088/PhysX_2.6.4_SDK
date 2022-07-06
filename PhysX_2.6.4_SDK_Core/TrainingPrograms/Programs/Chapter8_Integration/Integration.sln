@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson802", "Lesson802_Multiple_Scenes\compiler\vc7\Lesson802.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson804", "Lesson804_Mesh_Paging\compiler\vc7\Lesson804.vcproj", "{0B446846-A63A-4A9F-988C-11063BA1694C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson803", "Lesson803_PhysX_FX_Integration\compiler\vc7\Lesson803.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson805", "Lesson805_User_Controlled_Threads\compiler\vc7\Lesson805.vcproj", "{A7B478A9-9EA5-460E-B67D-13494919BAF2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson801", "Lesson801_Hardware_Scene_Manager\compiler\vc7\Lesson801.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{0B446846-A63A-4A9F-988C-11063BA1694C}.Debug.ActiveCfg = Debug|Win32
+		{0B446846-A63A-4A9F-988C-11063BA1694C}.Debug.Build.0 = Debug|Win32
+		{0B446846-A63A-4A9F-988C-11063BA1694C}.Release.ActiveCfg = Release|Win32
+		{0B446846-A63A-4A9F-988C-11063BA1694C}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{A7B478A9-9EA5-460E-B67D-13494919BAF2}.Debug.ActiveCfg = Debug|Win32
+		{A7B478A9-9EA5-460E-B67D-13494919BAF2}.Debug.Build.0 = Debug|Win32
+		{A7B478A9-9EA5-460E-B67D-13494919BAF2}.Release.ActiveCfg = Release|Win32
+		{A7B478A9-9EA5-460E-B67D-13494919BAF2}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

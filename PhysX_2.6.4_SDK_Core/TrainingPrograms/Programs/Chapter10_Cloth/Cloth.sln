@@ -1,0 +1,69 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1001", "Lesson1001_Cloth\compiler\vc7\Lesson1001.vcproj", "{94BA8758-A0B8-4BF3-98CE-6B8D089258FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1002", "Lesson1002_External_Forces\compiler\vc7\Lesson1002.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1003", "Lesson1003_Damping\compiler\vc7\Lesson1003.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1004", "Lesson1004_Pipe\compiler\vc7\Lesson1004.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1005", "Lesson1005_Attachment\compiler\vc7\Lesson1005.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1006", "Lesson1006_Tearing\compiler\vc7\Lesson1006.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1007", "Lesson1007_Pressure\compiler\vc7\Lesson1007.vcproj", "{25911EC6-D412-4829-A1B9-E1BBD9E859F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{94BA8758-A0B8-4BF3-98CE-6B8D089258FF}.Debug.ActiveCfg = Debug|Win32
+		{94BA8758-A0B8-4BF3-98CE-6B8D089258FF}.Debug.Build.0 = Debug|Win32
+		{94BA8758-A0B8-4BF3-98CE-6B8D089258FF}.Release.ActiveCfg = Release|Win32
+		{94BA8758-A0B8-4BF3-98CE-6B8D089258FF}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.ActiveCfg = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Debug.Build.0 = Debug|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.ActiveCfg = Release|Win32
+		{25911EC6-D412-4829-A1B9-E1BBD9E859F9}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

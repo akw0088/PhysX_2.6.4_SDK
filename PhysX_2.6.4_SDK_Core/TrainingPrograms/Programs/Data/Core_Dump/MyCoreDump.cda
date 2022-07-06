@@ -1,0 +1,313 @@
+[Physics SDK Version] =	16450048
+	[NUM_PARAMS] =	74
+		[NX_PENALTY_FORCE]	0.800000012
+		[NX_SKIN_WIDTH]	0.01
+		[NX_DEFAULT_SLEEP_LIN_VEL_SQUARED]	0.022500001
+		[NX_DEFAULT_SLEEP_ANG_VEL_SQUARED]	0.0196
+		[NX_BOUNCE_THRESHOLD]	-2
+		[NX_DYN_FRICT_SCALING]	1
+		[NX_STA_FRICT_SCALING]	1
+		[NX_MAX_ANGULAR_VELOCITY]	7
+		[NX_CONTINUOUS_CD]	0
+		[NX_VISUALIZATION_SCALE]	1
+		[NX_VISUALIZE_WORLD_AXES]	0
+		[NX_VISUALIZE_BODY_AXES]	0
+		[NX_VISUALIZE_BODY_MASS_AXES]	0
+		[NX_VISUALIZE_BODY_LIN_VELOCITY]	0
+		[NX_VISUALIZE_BODY_ANG_VELOCITY]	0
+		[NX_VISUALIZE_BODY_LIN_MOMENTUM]	0
+		[NX_VISUALIZE_BODY_ANG_MOMENTUM]	0
+		[NX_VISUALIZE_BODY_LIN_ACCEL]	0
+		[NX_VISUALIZE_BODY_ANG_ACCEL]	0
+		[NX_VISUALIZE_BODY_LIN_FORCE]	0
+		[NX_VISUALIZE_BODY_ANG_FORCE]	0
+		[NX_VISUALIZE_BODY_REDUCED]	0
+		[NX_VISUALIZE_BODY_JOINT_GROUPS]	0
+		[NX_VISUALIZE_BODY_CONTACT_LIST]	0
+		[NX_VISUALIZE_BODY_JOINT_LIST]	0
+		[NX_VISUALIZE_BODY_DAMPING]	0
+		[NX_VISUALIZE_BODY_SLEEP]	0
+		[NX_VISUALIZE_JOINT_LOCAL_AXES]	0
+		[NX_VISUALIZE_JOINT_WORLD_AXES]	0
+		[NX_VISUALIZE_JOINT_LIMITS]	0
+		[NX_VISUALIZE_JOINT_ERROR]	0
+		[NX_VISUALIZE_JOINT_FORCE]	0
+		[NX_VISUALIZE_JOINT_REDUCED]	0
+		[NX_VISUALIZE_CONTACT_POINT]	0
+		[NX_VISUALIZE_CONTACT_NORMAL]	0
+		[NX_VISUALIZE_CONTACT_ERROR]	0
+		[NX_VISUALIZE_CONTACT_FORCE]	0
+		[NX_VISUALIZE_ACTOR_AXES]	1
+		[NX_VISUALIZE_COLLISION_AABBS]	0
+		[NX_VISUALIZE_COLLISION_SHAPES]	1
+		[NX_VISUALIZE_COLLISION_AXES]	0
+		[NX_VISUALIZE_COLLISION_COMPOUNDS]	0
+		[NX_VISUALIZE_COLLISION_VNORMALS]	0
+		[NX_VISUALIZE_COLLISION_FNORMALS]	1
+		[NX_VISUALIZE_COLLISION_EDGES]	0
+		[NX_VISUALIZE_COLLISION_SPHERES]	0
+		[NX_VISUALIZE_COLLISION_SAP]	0
+		[NX_VISUALIZE_COLLISION_STATIC]	0
+		[NX_VISUALIZE_COLLISION_DYNAMIC]	0
+		[NX_VISUALIZE_COLLISION_FREE]	0
+		[NX_VISUALIZE_COLLISION_CCD]	0
+		[NX_VISUALIZE_COLLISION_SKELETONS]	0
+		[NX_VISUALIZE_FLUID_EMITTERS]	0
+		[NX_VISUALIZE_FLUID_POSITION]	0
+		[NX_VISUALIZE_FLUID_VELOCITY]	0
+		[NX_VISUALIZE_FLUID_KERNEL_RADIUS]	0
+		[NX_VISUALIZE_FLUID_BOUNDS]	0
+		[NX_VISUALIZE_FLUID_PACKETS]	0
+		[NX_VISUALIZE_FLUID_MOTION_LIMIT]	0
+		[NX_VISUALIZE_FLUID_DYN_COLLISION]	0
+		[NX_VISUALIZE_FLUID_DRAINS]	0
+		[NX_VISUALIZE_CLOTH_COLLISIONS]	0
+		[NX_VISUALIZE_CLOTH_SELFCOLLISIONS]	0
+		[NX_VISUALIZE_CLOTH_WORKPACKETS]	0
+		[NX_VISUALIZE_CLOTH_SLEEP]	0
+		[NX_ADAPTIVE_FORCE]	1
+		[NX_COLL_VETO_JOINTED]	1
+		[NX_TRIGGER_TRIGGER_CALLBACK]	1
+		[NX_SELECT_HW_ALGO]	0
+		[NX_VISUALIZE_ACTIVE_VERTICES]	0
+		[NX_CCD_EPSILON]	0.01
+		[NX_SOLVER_CONVERGENCE_THRESHOLD]	0
+		[NX_BBOX_NOISE_LEVEL]	0.001
+		[NX_IMPLICIT_SWEEP_CACHE_SIZE]	5
+	[nbTriangleMeshes] 0
+	[nbConvexMeshes]	0
+	[nbCCDSkeletons]	0
+	[nbHeightFields] 0
+	[NbScenes] 1
+			[Scene1]
+			sceneDesc
+				groundPlane = FALSE
+				boundsPlanes = FALSE
+				gravity=0,-9.800000191,0
+				timeStepMethod =	0
+				maxTimestep = 0.016666668
+				maxIter =	8
+				simType =	1
+				limits = FALSE
+				maxBounds = FALSE
+				NxUserNotify Present = false
+				NxUserTriggerReport Present = false
+				NxUserContactReport Present = false
+				userData Present = false
+			[NbMaterials] =	1
+				[NxMaterial1]
+					dynamicFriction = 0.5
+					staticFriction = 0.5
+					restitution = 0.200000003
+					dynamicFrictionV = 0
+					staticFrictionV = 0
+					frictionCombineMode =	0
+					restitutionCombineMode =	0
+					dirOfAnisotropy=0,0,0
+					NX_MF_ANISOTROPIC = false
+					spring=NULL
+						SpringDesc Present = FALSE
+			[NbActors] =	4
+				[NxActor1]
+					globalPose=1,0,0	0,1,0  0,0,1	0,0,0
+					BodyDesc Present = FALSE
+					body=NULL
+					density = 0
+					group =	0
+					NX_AF_DISABLE_COLLISION = false
+					NX_AF_DISABLE_RESPONSE = false
+					name="null"
+					[NbShapes] =	1
+						ShapePresent = TRUE
+						NxShape=NX_SHAPE_PLANE
+							type =	0
+							localPose=1,0,0	0,1,0  0,0,1	0,0,0
+							group =	0
+							materialIndex =	0
+							mass = -1
+							density = 1
+							skinWidth = 0.01
+							NX_TRIGGER_ON_ENTER = false
+							NX_TRIGGER_ON_LEAVE = false
+							NX_TRIGGER_ON_STAY = false
+							NX_TRIGGER_ENABLE = false
+							NX_SF_VISUALIZATION = true
+							NX_SF_DISABLE_COLLISION = false
+							NX_SF_FEATURE_INDICES = false
+							NX_SF_DISABLE_RAYCASTING = false
+							NX_SF_POINT_CONTACT_FORCE = false
+							NX_SF_DISABLE_RESPONSE = false
+							ccdSkeleton=NULL
+							groupsMask=0 0 0 0
+							name="null"
+							plane=0,1,0,0
+				[NxActor2]
+					globalPose=1,0.000074285,0.000021696	-0.000074283,1,-0.000095816  -0.000021703,0.000095814,1	5.000090122,-0.019878864,0.000092952
+					BodyDesc Present = TRUE
+					body=DYNAMIC
+						massLocalPose=1,0,0	0,1,0  0,0,1	0,1,0
+						massSpaceInertia=16.666669846,6.666666985,16.666669846
+						mass = 40
+						linearVelocity=0,0,0
+						angularVelocity=0,0,0
+						wakeUpCounter = 0
+						linearDamping = 0
+						angularDamping = 0.050000001
+						maxAngularVelocity = 7
+						CCDMotionThreshold = 0
+						sleepLinearVelocity = 0.150000006
+						sleepAngularVelocity = 0.140000001
+						solverIterationCount =	4
+						NX_BF_DISABLE_GRAVITY = false
+						NX_BF_FROZEN_POS_X = false
+						NX_BF_FROZEN_POS_Y = false
+						NX_BF_FROZEN_POS_Z = false
+						NX_BF_FROZEN_ROT_X = false
+						NX_BF_FROZEN_ROT_Y = false
+						NX_BF_FROZEN_ROT_Z = false
+						NX_BF_KINEMATIC = false
+						NX_BF_VISUALIZATION = true
+					density = 0
+					group =	0
+					NX_AF_DISABLE_COLLISION = false
+					NX_AF_DISABLE_RESPONSE = false
+					name="null"
+					[NbShapes] =	1
+						ShapePresent = TRUE
+						NxShape=NX_SHAPE_BOX
+							type =	2
+							localPose=1,0,0	0,1,0  0,0,1	0,1,0
+							group =	0
+							materialIndex =	0
+							mass = -1
+							density = 1
+							skinWidth = 0.01
+							NX_TRIGGER_ON_ENTER = false
+							NX_TRIGGER_ON_LEAVE = false
+							NX_TRIGGER_ON_STAY = false
+							NX_TRIGGER_ENABLE = false
+							NX_SF_VISUALIZATION = true
+							NX_SF_DISABLE_COLLISION = false
+							NX_SF_FEATURE_INDICES = false
+							NX_SF_DISABLE_RAYCASTING = false
+							NX_SF_POINT_CONTACT_FORCE = false
+							NX_SF_DISABLE_RESPONSE = false
+							ccdSkeleton=NULL
+							groupsMask=0 0 0 0
+							name="null"
+							BoxDimensions=0.5,1,0.5
+				[NxActor3]
+					globalPose=1,0.00000002,0	-0.00000002,1,0  0,0,1	-0,-0.019999743,0
+					BodyDesc Present = TRUE
+					body=DYNAMIC
+						massLocalPose=1,0,0	0,1,0  0,0,1	0,1,0
+						massSpaceInertia=16.755161285,16.755161285,16.755161285
+						mass = 41.887901306
+						linearVelocity=0,0,0
+						angularVelocity=0,0,0
+						wakeUpCounter = 0
+						linearDamping = 0
+						angularDamping = 0.050000001
+						maxAngularVelocity = 7
+						CCDMotionThreshold = 0
+						sleepLinearVelocity = 0.150000006
+						sleepAngularVelocity = 0.140000001
+						solverIterationCount =	4
+						NX_BF_DISABLE_GRAVITY = false
+						NX_BF_FROZEN_POS_X = false
+						NX_BF_FROZEN_POS_Y = false
+						NX_BF_FROZEN_POS_Z = false
+						NX_BF_FROZEN_ROT_X = false
+						NX_BF_FROZEN_ROT_Y = false
+						NX_BF_FROZEN_ROT_Z = false
+						NX_BF_KINEMATIC = false
+						NX_BF_VISUALIZATION = true
+					density = 0
+					group =	0
+					NX_AF_DISABLE_COLLISION = false
+					NX_AF_DISABLE_RESPONSE = false
+					name="null"
+					[NbShapes] =	1
+						ShapePresent = TRUE
+						NxShape=NX_SHAPE_SPHERE
+							type =	1
+							localPose=1,0,0	0,1,0  0,0,1	0,1,0
+							group =	0
+							materialIndex =	0
+							mass = -1
+							density = 1
+							skinWidth = 0.01
+							NX_TRIGGER_ON_ENTER = false
+							NX_TRIGGER_ON_LEAVE = false
+							NX_TRIGGER_ON_STAY = false
+							NX_TRIGGER_ENABLE = false
+							NX_SF_VISUALIZATION = true
+							NX_SF_DISABLE_COLLISION = false
+							NX_SF_FEATURE_INDICES = false
+							NX_SF_DISABLE_RAYCASTING = false
+							NX_SF_POINT_CONTACT_FORCE = false
+							NX_SF_DISABLE_RESPONSE = false
+							ccdSkeleton=NULL
+							groupsMask=0 0 0 0
+							name="null"
+							radius = 1
+				[NxActor4]
+					globalPose=1,-0.000001189,0	0.000001189,1,0  0,0,1	-4.999997139,5.865314007,0
+					BodyDesc Present = TRUE
+					body=DYNAMIC
+						massLocalPose=1,0,0	0,1,0  0,0,1	0,1.5,0
+						massSpaceInertia=19.144081116,2.94524312,19.144081116
+						mass = 23.561944962
+						linearVelocity=0,-2.501355171,0
+						angularVelocity=0,0,0
+						wakeUpCounter = 0.266666532
+						linearDamping = 0
+						angularDamping = 0.050000001
+						maxAngularVelocity = 7
+						CCDMotionThreshold = 0
+						sleepLinearVelocity = 0.150000006
+						sleepAngularVelocity = 0.140000001
+						solverIterationCount =	4
+						NX_BF_DISABLE_GRAVITY = false
+						NX_BF_FROZEN_POS_X = false
+						NX_BF_FROZEN_POS_Y = false
+						NX_BF_FROZEN_POS_Z = false
+						NX_BF_FROZEN_ROT_X = false
+						NX_BF_FROZEN_ROT_Y = false
+						NX_BF_FROZEN_ROT_Z = false
+						NX_BF_KINEMATIC = false
+						NX_BF_VISUALIZATION = true
+					density = 0
+					group =	0
+					NX_AF_DISABLE_COLLISION = false
+					NX_AF_DISABLE_RESPONSE = false
+					name="null"
+					[NbShapes] =	1
+						ShapePresent = TRUE
+						NxShape=NX_SHAPE_CAPSULE
+							type =	3
+							localPose=1,0,0	0,1,0  0,0,1	0,1.5,0
+							group =	0
+							materialIndex =	0
+							mass = -1
+							density = 1
+							skinWidth = 0.01
+							NX_TRIGGER_ON_ENTER = false
+							NX_TRIGGER_ON_LEAVE = false
+							NX_TRIGGER_ON_STAY = false
+							NX_TRIGGER_ENABLE = false
+							NX_SF_VISUALIZATION = true
+							NX_SF_DISABLE_COLLISION = false
+							NX_SF_FEATURE_INDICES = false
+							NX_SF_DISABLE_RAYCASTING = false
+							NX_SF_POINT_CONTACT_FORCE = false
+							NX_SF_DISABLE_RESPONSE = false
+							ccdSkeleton=NULL
+							groupsMask=0 0 0 0
+							name="null"
+							radius = 0.5
+							height = 2
+							NX_SWEPT_SHAPE = false
+			[NbPairs] =	0
+			[NbJoints] =	0
+			[NbEffectors] =	0

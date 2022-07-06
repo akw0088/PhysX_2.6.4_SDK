@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+ProjectType="Visual C++"
+Version="7.10"
+Name="SampleHeightField"
+>
+<Platforms>
+<Platform Name="Win32"/>
+</Platforms>
+<Configurations>
+  <Configuration
+    Name="Release|Win32"
+    OutputDirectory="../../../bin/win32"
+    IntermediateDirectory="build/Win32/SampleHeightField/Release"
+    ConfigurationType="1"
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../SampleCommonCode/src&quot;;&quot;../../../SDKs/Foundation/include&quot;;&quot;../../../SDKs/Physics/include&quot;;&quot;../../../SDKs/Cooking/include&quot;;&quot;../../../SDKs/PhysXLoader/include&quot;;&quot;../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CRT_SECURE_NO_DEPRECATE;NDEBUG;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions="/O2 /MT "
+      ExceptionHandling="1"
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/SampleHeightField.exe" 
+      ProgramDatabaseFile="$(OutDir)/SampleHeightField.exe.pdb" 
+      AdditionalOptions="/LIBPATH:../../../SDKs/lib/win32 /LIBPATH:../../../Graphics/lib/win32/glut PhysXLoader.lib NxCooking.lib "
+      AdditionalDependencies=""
+      AdditionalLibraryDirectories=""
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/SampleHeightField.exe.map"
+      SubSystem="1"
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool" CommandLine=""/>
+    <Tool Name="VCPostBuildEventTool" CommandLine=""/>
+    <Tool Name="VCPreLinkEventTool" CommandLine=""/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+  <Configuration
+    Name="Debug|Win32"
+    OutputDirectory="../../../bin/win32"
+    IntermediateDirectory="build/Win32/SampleHeightField/Debug"
+    ConfigurationType="1"
+    CharacterSet="2"
+    >
+    <Tool
+      Name="VCCLCompilerTool"
+      AdditionalIncludeDirectories="&quot;../../SampleCommonCode/src&quot;;&quot;../../../SDKs/Foundation/include&quot;;&quot;../../../SDKs/Physics/include&quot;;&quot;../../../SDKs/Cooking/include&quot;;&quot;../../../SDKs/PhysXLoader/include&quot;;&quot;../../../Graphics/include/win32&quot;;"
+      PreprocessorDefinitions="WIN32;_CRT_SECURE_NO_DEPRECATE;_DEBUG;"
+      WarningLevel="3"
+      Optimization="4"
+      AdditionalOptions="/Od /MTd /Zi "
+      ExceptionHandling="1"
+      />
+    <Tool Name="VCCustomBuildTool"/>
+    <Tool 
+      Name="VCLinkerTool" 
+      OutputFile="$(OutDir)/SampleHeightFieldDEBUG.exe" 
+      ProgramDatabaseFile="$(OutDir)/SampleHeightFieldDEBUG.exe.pdb" 
+      AdditionalOptions="/LIBPATH:../../../SDKs/lib/win32 /LIBPATH:../../../Graphics/lib/win32/glut /DEBUG PhysXLoader.lib NxCooking.lib "
+      AdditionalDependencies=""
+      AdditionalLibraryDirectories=""
+      GenerateMapFile="TRUE"
+      MapFileName="$(OutDir)/SampleHeightFieldDEBUG.exe.map"
+      SubSystem="1"
+      />
+    <Tool Name="VCMIDLTool"/>
+    <Tool Name="VCPreBuildEventTool" CommandLine=""/>
+    <Tool Name="VCPostBuildEventTool" CommandLine=""/>
+    <Tool Name="VCPreLinkEventTool" CommandLine=""/>
+    <Tool Name="VCResourceCompilerTool"/>
+    <Tool Name="VCWebServiceProxyGeneratorTool"/>
+    <Tool Name="VCXMLDataGeneratorTool"/>
+    <Tool Name="VCWebDeploymentTool"/>
+    <Tool Name="VCManagedWrapperGeneratorTool"/>
+    <Tool Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+  </Configuration>
+</Configurations>
+<References></References>
+<Files>
+  <Filter Name="Source Files" Filter="">
+    <File RelativePath="..\..\SampleCommonCode\src\DebugRenderer.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\DrawObjects.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Stream.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Timing.cpp"/>
+    <File RelativePath="..\..\SampleCommonCode\src\UserAllocator.cpp"/>
+    <File RelativePath="..\..\SampleHeightField\src\NxSampleHeightField.cpp"/>
+  </Filter>
+  <Filter Name="Header Files" Filter="">
+    <File RelativePath="..\..\SampleCommonCode\src\DebugRenderer.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\DrawObjects.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\SamplesVRDSettings.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Stream.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Timing.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\UserAllocator.h"/>
+    <File RelativePath="..\..\SampleCommonCode\src\Utilities.h"/>
+  </Filter>
+</Files>
+<Globals></Globals>
+</VisualStudioProject>
